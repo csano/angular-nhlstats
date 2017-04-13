@@ -5,7 +5,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "karma": "^1.6.0"
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
   },
   "scripts": {
     "test": "karma start karma.conf.js"
